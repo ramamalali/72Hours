@@ -107,7 +107,7 @@ body {
   padding-top: 3.313rem;
 }
 
-.OF-flex p {
+/* .OF-flex p {
   color: var(--black);
   text-align: center;
   font-family: var(--font-family_2);
@@ -116,8 +116,30 @@ body {
   font-size: 0.875rem;
   line-height: 1.125rem;
   padding-bottom: 2.875rem;
+} */
 
+.center .OF-flex  p{
+  text-align: center;
+  font-family: var(--font-family_2);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  padding-bottom: 2.875rem;
+  color: #000000;
 }
+
+.center .slick-center .OF-flex p {
+  text-align: center;
+  font-family: var(--font-family_2);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  padding-bottom: 2.875rem;
+  color: #12372A;
+}
+
 
 /* Services */
 .OF-services-Head-title {
@@ -203,7 +225,20 @@ body {
   margin-bottom: 1.875rem;
   margin-top: 0.75rem;
 }
-
+.OF-first-column_hover_4,
+.OF-first-column_hover_3,
+.OF-first-column_hover_2,
+.OF-first-column_hover_1 {
+  transition: transform 0.5s ease; /* Smooth transition */
+  position: relative;
+ 
+}
+.OF-first-column_hover_4:hover,
+.OF-first-column_hover_3:hover,
+.OF-first-column_hover_2:hover,
+.OF-first-column_hover_1:hover {
+  transform: translateY(-15px); /* Move the card up by 10px on hover */
+}
 /* Agenda Styles */
 .OF-Agenda-Head-Title {
   font-family: var(--font-family_3);
