@@ -234,7 +234,7 @@ body {
 }
 
 .OF-Slider-Head h2 {
-/*   margin-top: 6rem; */
+  /*   margin-top: 6rem; */
   font-family: var(--font-family_3);
   font-style: normal;
   font-weight: 700;
@@ -426,25 +426,24 @@ body {
 }
 
 .OF-Parent {
-  max-width: max-content;
-  margin: 0 auto;
+  max-width: max-content !important;
+  margin: 0 auto 100px auto!important;
+
 }
 
 .OF-container {
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   gap: 36.53px;
   margin-top: 4rem;
 }
 
 .OF-wrapper {
-  max-width: 976.97px;
-  /* min-width: 69.78%; */
+  width: 69.78%;
   background-image: url(../images/Group151.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0 auto;
 }
 
 .OF-card {
@@ -453,7 +452,7 @@ body {
 
 
 .OF-card-image {
-  max-width: 367px;
+  min-width: 367px;
 }
 
 .OF-card-image img {
@@ -465,9 +464,10 @@ body {
 }
 
 .OF-card-content {
-  max-width: 576.07px;
+  /* max-width: 576.07px; */
   margin-top: 92px;
   padding-left: 45.64px;
+  padding-right: 20px;
 }
 
 /* ******************************************************** */
@@ -530,7 +530,6 @@ body {
   justify-content: space-between;
   align-items: center;
   overflow-y: hidden;
-  /* gap: 1.063rem; */
 }
 
 .OF-index div {
@@ -570,21 +569,33 @@ body {
 
 @media screen and (max-width:1088px) {
   .OF-card.active {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 }
 
 @media screen and (min-width:500px) {
   .OF-card-image {
-      margin-left: 34px;
+    margin-left: 34px;
 
   }
 
   .OF-card-image img {
-      padding: 33px 0;
+    padding: 33px 0;
   }
 }
+
+@media screen and (min-width:1600px) {
+  .Of-child_1 {
+    position: absolute;
+    top: -149px;
+    margin-left: 48px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+  }
+}
+
 /* ////////////////////////////////////////////////////////// */
 /* voting section */
 .rm_voting {
@@ -592,11 +603,13 @@ body {
   height: 66.3125rem;
   background-color: #12372a;
 }
-.rm_voting_liner{
+
+.rm_voting_liner {
   position: absolute;
   left: 299px;
   margin-top: 205px;
 }
+
 .rm_voting_title,
 .rm_roadshow_title {
   text-align: center;
@@ -605,6 +618,7 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
 }
+
 .rm_voting_box {
   width: 73rem;
   height: 47rem;
@@ -614,6 +628,7 @@ body {
   border-radius: 48px;
   border: 5px solid #ffffff;
 }
+
 .rm_voting_segment1,
 .rm_voting_segment2,
 .rm_voting_segment3 {
@@ -623,6 +638,7 @@ body {
   gap: 5.75rem;
   position: relative;
 }
+
 .rm_voting_segment1_sycle,
 .rm_voting_segment2_sycle,
 .rm_voting_segment3_sycle {
@@ -638,10 +654,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .rm_sycle_title {
   width: 6.5rem;
   text-align: center;
 }
+
 .rm_voting_segment1_text,
 .rm_voting_segment2_text,
 .rm_voting_segment3_text {
@@ -651,6 +669,7 @@ body {
   color: #000000;
   margin-right: 2rem;
 }
+
 .rm_voting_bottns {
   display: flex;
   align-items: center;
@@ -659,6 +678,7 @@ body {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
 }
+
 button {
   width: 9.3325rem;
   height: 4.08875rem;
@@ -677,6 +697,7 @@ button {
   height: 61.375rem;
 
 }
+
 .rm_segments_title {
   text-align: center;
   padding-bottom: 4rem;
@@ -685,18 +706,21 @@ button {
   font-size: 2.5rem;
   font-weight: bold;
 }
+
 .rm_segments_container {
   display: flex;
   justify-content: center;
   gap: 1.625rem;
   position: relative;
 }
-.rm_container_conts{
+
+.rm_container_conts {
   display: flex;
   justify-content: center;
   gap: 1.625rem;
   position: absolute;
 }
+
 .rm_container_background {
   width: 100%;
   height: 355px;
@@ -706,15 +730,18 @@ button {
   right: 24px;
   z-index: 0;
 }
+
 .rm_segments_cont1 {
   position: relative;
   z-index: 3;
 }
+
 .rm_segments_cont2 {
   margin-top: 6.25rem;
   position: relative;
   z-index: 3;
 }
+
 .rm_segments_card1 {
   width: 11.75rem;
   height: 18.3125rem;
@@ -728,6 +755,7 @@ button {
   position: relative;
   z-index: 3;
 }
+
 .rm_segments_btn {
   width: 10.1875rem;
   height: 2.6875rem;
@@ -736,51 +764,60 @@ button {
   color: #ffffff;
   font-size: 1.125rem;
 }
+
 .rm_segments_photo {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
+
 /* ////////////////////////////////////////////////////////////////////////// */
 /* roadshow */
 .rm_roadshow {
   width: 100%;
 }
+
 .rm_roadshow_title {
   color: #12372a;
 }
+
 .rm_roadshow_sec1,
 .rm_roadshow_sec2 {
   height: 18.375rem;
   margin: auto 4.375rem;
   margin-top: 4rem;
   display: flex;
-  gap:1.75rem;
+  gap: 1.75rem;
   margin-bottom: 2rem;
-/*   margin-top: 1.9375rem; */
+  /*   margin-top: 1.9375rem; */
 }
+
 .rm_roadshow_sec2 {
   margin-top: 0;
 }
+
 .rm_roadshow_sec1_text,
 .rm_roadshow_sec2_text {
-  width:46.75rem;
+  width: 46.75rem;
   border: 1px solid #12372a;
   border-radius: 10px;
 }
+
 .rm_roadshow_sec1_text_title,
 .rm_roadshow_sec2_text_title {
   text-align: start;
-  padding-left:1.8125rem;
+  padding-left: 1.8125rem;
   padding-top: 1.4375rem;
   font-weight: bold;
 }
+
 .rm_roadshow_sec1_text_text,
 .rm_roadshow_sec2_text_text {
-  width:39.75rem;
+  width: 39.75rem;
   text-align: start;
   padding-left: 1.8125rem;
-  padding-top:2.625rem;
+  padding-top: 2.625rem;
 }
+
 .rm_but {
   display: flex;
   align-items: center;
@@ -788,22 +825,25 @@ button {
   margin-top: 1.9375rem;
   margin-right: 3.8125rem;
 }
+
 .rm_roadshow_sec1_but,
 .rm_roadshow_sec2_but {
   width: 6.25rem;
-  height:2.125rem;
+  height: 2.125rem;
   padding: 0.6875rem 1.375rem;
   border: none;
-  font-size:0.5rem;
+  font-size: 0.5rem;
   color: #ffffff;
   background-color: #12372a;
   border-radius: 8px;
 }
+
 .rm_roadshow_sec1_photo,
 .rm_roadshow_sec2_photo {
-  width:30.25rem;
+  width: 30.25rem;
   height: 18.375rem;
 }
+
 /* /////////////////////////////////////////////////////////////////////// */
 footer {
   background: #12372A;
