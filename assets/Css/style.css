@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&family=DM+Sans:opsz,wght@9..40,100;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 :root {
   --white: white;
   --black: "#12372A";
@@ -109,13 +111,13 @@ body {
 
 .ma-heroPoL .ma-heroParO {
   color: #52525E;
-  font-family: "Bai Jamjuree";
+  /* font-family: "Bai Jamjuree"; */
   letter-spacing: -1px;
 }
 
 .ma-heroPoL .ma-heroParT {
   color: #52525E;
-  font-family: "Bai Jamjuree";
+  /* font-family: "Bai Jamjuree"; */
   font-size: 20px;
   font-weight: 700;
   letter-spacing: -1px;
@@ -128,7 +130,7 @@ body {
 .ma-heroPT .ma-heroPTpar {
   width: 293px;
   color: #52525E;
-  font-family: "Bai Jamjuree";
+  /* font-family: "Bai Jamjuree"; */
   font-size: 16px;
   font-weight: 500;
   line-height: 29px;
@@ -143,14 +145,14 @@ body {
 
 .ma-heroPDo h1 {
   color: #12372A;
-  font-family: "Bai Jamjuree";
+  /* font-family: "Bai Jamjuree"; */
   font-size: 20px;
   letter-spacing: -1px;
 }
 
 .ma-heroPDo p {
   color: #52525E;
-  font-family: "Bai Jamjuree";
+  /* font-family: "Bai Jamjuree"; */
   font-size: 16px;
   font-weight: 500;
   line-height: 29px;
@@ -184,13 +186,13 @@ body {
 }
 
 .ma-cardOne h1 {
-  font-family: "Bai Jamjuree";
+  /* font-family: "Bai Jamjuree"; */
   margin-bottom: 29px;
 }
 
 .ma-cardOne p {
   width: 550px;
-  font-family: "Bai Jamjuree";
+  /* font-family: "Bai Jamjuree"; */
 }
 
 .ma-mainPt {
@@ -209,13 +211,13 @@ body {
 
 .ma-cardTwo h2 {
   width: 300px;
-  font-family: "Bai Jamjuree";
+  /* font-family: "Bai Jamjuree"; */
   margin-bottom: 51px;
 }
 
 .ma-cardTwo p {
   width: 300px;
-  font-family: "Bai Jamjuree";
+  /* font-family: "Bai Jamjuree"; */
 }
 
 .ma-cardThree {
@@ -444,7 +446,7 @@ body {
 .OF-first-column_hover_3:hover,
 .OF-first-column_hover_2:hover,
 .OF-first-column_hover_1:hover {
-  transform: translateY(-15px); /* Move the card up by 10px on hover */
+  transform: translateY(-15px); /* Move the card up by 15px on hover */
 }
 /* Agenda Styles */
 .OF-Agenda-Head-Title {
