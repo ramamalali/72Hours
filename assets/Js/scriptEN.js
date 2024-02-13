@@ -8,7 +8,7 @@ $('.center').slick({
     arrows: false,
     autoplay: true,
     autoplaySpeed: 7000,
-/*     rtl: true, */
+    /*     rtl: true, */
     variableWidth: true,
     responsive: [
         {
@@ -53,9 +53,10 @@ $('.center').slick({
 // }
 
 document.addEventListener('DOMContentLoaded', async function () {
- const cardItems =  [
+    const cardItems = [
         {
-            "title": " AGENDA 1: SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title_2": " AGENDA 1",
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -65,7 +66,8 @@ document.addEventListener('DOMContentLoaded', async function () {
             "image": "../assets/images/Group74.png"
         },
         {
-            "title": " AGENDA 2: SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title_2": " AGENDA 2",
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -75,7 +77,8 @@ document.addEventListener('DOMContentLoaded', async function () {
             "image": "../assets/images/Group74.png"
         },
         {
-            "title": " AGENDA 3: SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title_2": " AGENDA 3", 
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -85,7 +88,8 @@ document.addEventListener('DOMContentLoaded', async function () {
             "image": "../assets/images/Group74.png"
         },
         {
-            "title": " AGENDA 4: SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title_2": " AGENDA 4", 
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -95,7 +99,8 @@ document.addEventListener('DOMContentLoaded', async function () {
             "image": "../assets/images/Group74.png"
         },
         {
-            "title": " AGENDA 5: SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title_2": " AGENDA 5", 
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -105,7 +110,8 @@ document.addEventListener('DOMContentLoaded', async function () {
             "image": "../assets/images/Group74.png"
         },
         {
-            "title": " AGENDA 6: SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title_2": " AGENDA 6", 
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -115,7 +121,8 @@ document.addEventListener('DOMContentLoaded', async function () {
             "image": "../assets/images/Group74.png"
         },
         {
-            "title": " AGENDA 7: SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title_2": " AGENDA 7", 
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -125,7 +132,8 @@ document.addEventListener('DOMContentLoaded', async function () {
             "image": "../assets/images/Group74.png"
         },
         {
-            "title": " AGENDA 8: SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title_2": " AGENDA 8", 
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -135,7 +143,8 @@ document.addEventListener('DOMContentLoaded', async function () {
             "image": "../assets/images/Group74.png"
         },
         {
-            "title": " AGENDA 9: SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title_2": " AGENDA 9", 
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -145,7 +154,8 @@ document.addEventListener('DOMContentLoaded', async function () {
             "image": "../assets/images/Group74.png"
         },
         {
-            "title": " AGENDA 10: SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title_2": " AGENDA 10", 
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -173,6 +183,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         <div class="OF-card-content">
             <div class="OF-card-title">
                 <h1 class="card-title-h1">
+                 ${content.title_2}
                     <span class="card-title-span">
                     ${content.title}
                     </span> 
