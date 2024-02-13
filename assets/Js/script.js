@@ -33,27 +33,129 @@ $('.center').slick({
 });
 
 //fetch Data For Agenda View
-async function fetchData() {
-    try {
-        // URL of the JSON endpoint 
-        const url = '../../index.html/cardsAr.json';
-        // Fetch the JSON data 
-        const response = await fetch(url);
-        // Check if the response is successful 
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        // Parse the JSON response 
-        const data = await response.json();
-        return data;
-    } catch (error) {
-        // Handle any errors that occurred during the fetch 
-        console.error('Fetch error:', error);
-    }
-}
+// async function fetchData() {
+//     try {
+//         // URL of the JSON endpoint 
+//         const url = '../../index.html/cardsAr.json';
+//         // Fetch the JSON data 
+//         const response = await fetch(url);
+//         // Check if the response is successful 
+//         if (!response.ok) {
+//             throw new Error('Network response was not ok');
+//         }
+//         // Parse the JSON response 
+//         const data = await response.json();
+//         return data;
+//     } catch (error) {
+//         // Handle any errors that occurred during the fetch 
+//         console.error('Fetch error:', error);
+//     }
+// }
 
 document.addEventListener('DOMContentLoaded', async function () {
-    const cardItems = await fetchData();
+  const cardItems =  [
+        {
+            "title": "جدول الأعمال 1: برنامج التصويت لأفضل 10 مدن مرشحة في المملكة العربية السعودية",
+            "description": "يود مجلس إدارة مجموعة الأعمال والتمويل (BFG) التي تأسست عام 1985 ومجلة نادي الأعمال والتمويل التابع لها، والذي يقع مقره في مدينة دبي للإعلام منذ عام 2003، أن يتقدما بأطيب تحياته.   ",
+            "buttons": [
+                "حول تعليمات التصويت",
+                "حول التصويت فوائد",
+                "حول تعليمات التصويت"
+            ],
+            "image": "../assets/images/Group74.png"
+        },
+        {
+            "title": "جدول الأعمال 2: برنامج التصويت لأفضل 10 مدن مرشحة في المملكة العربية السعودية",
+            "description": "يود مجلس إدارة مجموعة الأعمال والتمويل (BFG) التي تأسست عام 1985 ومجلة نادي الأعمال والتمويل التابع لها، والذي يقع مقره في مدينة دبي للإعلام منذ عام 2003، أن يتقدما بأطيب تحياته.   ",
+            "buttons": [
+                "حول تعليمات التصويت",
+                "حول التصويت فوائد",
+                "حول تعليمات التصويت"
+            ],
+            "image": "../assets/images/Group74.png"
+        },
+        {
+            "title": "جدول الأعمال 3: برنامج التصويت لأفضل 10 مدن مرشحة في المملكة العربية السعودية",
+            "description": "يود مجلس إدارة مجموعة الأعمال والتمويل (BFG) التي تأسست عام 1985 ومجلة نادي الأعمال والتمويل التابع لها، والذي يقع مقره في مدينة دبي للإعلام منذ عام 2003، أن يتقدما بأطيب تحياته.   ",
+            "buttons": [
+                "حول تعليمات التصويت",
+                "حول التصويت فوائد",
+                "حول تعليمات التصويت"
+            ],
+            "image": "../assets/images/Group74.png"
+        },
+        {
+            "title": "جدول الأعمال 4: برنامج التصويت لأفضل 10 مدن مرشحة في المملكة العربية السعودية",
+            "description": "يود مجلس إدارة مجموعة الأعمال والتمويل (BFG) التي تأسست عام 1985 ومجلة نادي الأعمال والتمويل التابع لها، والذي يقع مقره في مدينة دبي للإعلام منذ عام 2003، أن يتقدما بأطيب تحياته.   ",
+            "buttons": [
+                "حول تعليمات التصويت",
+                "حول التصويت فوائد",
+                "حول تعليمات التصويت"
+            ],
+            "image": "../assets/images/Group74.png"
+        },
+        {
+            "title": "جدول الأعمال 5: برنامج التصويت لأفضل 10 مدن مرشحة في المملكة العربية السعودية",
+            "description": "يود مجلس إدارة مجموعة الأعمال والتمويل (BFG) التي تأسست عام 1985 ومجلة نادي الأعمال والتمويل التابع لها، والذي يقع مقره في مدينة دبي للإعلام منذ عام 2003، أن يتقدما بأطيب تحياته.   ",
+            "buttons": [
+                "حول تعليمات التصويت",
+                "حول التصويت فوائد",
+                "حول تعليمات التصويت"
+            ],
+            "image": "../assets/images/Group74.png"
+        },
+        {
+            "title": "جدول الأعمال 6: برنامج التصويت لأفضل 10 مدن مرشحة في المملكة العربية السعودية",
+            "description": "يود مجلس إدارة مجموعة الأعمال والتمويل (BFG) التي تأسست عام 1985 ومجلة نادي الأعمال والتمويل التابع لها، والذي يقع مقره في مدينة دبي للإعلام منذ عام 2003، أن يتقدما بأطيب تحياته.   ",
+            "buttons": [
+                "حول تعليمات التصويت",
+                "حول التصويت فوائد",
+                "حول تعليمات التصويت"
+            ],
+            "image": "../assets/images/Group74.png"
+        },
+        {
+            "title": "جدول الأعمال 27: برنامج التصويت لأفضل 10 مدن مرشحة في المملكة العربية السعودية",
+            "description": "يود مجلس إدارة مجموعة الأعمال والتمويل (BFG) التي تأسست عام 1985 ومجلة نادي الأعمال والتمويل التابع لها، والذي يقع مقره في مدينة دبي للإعلام منذ عام 2003، أن يتقدما بأطيب تحياته.   ",
+            "buttons": [
+                "حول تعليمات التصويت",
+                "حول التصويت فوائد",
+                "حول تعليمات التصويت"
+            ],
+            "image": "../assets/images/Group74.png"
+        },
+        {
+            "title": "جدول الأعمال 2: برنامج التصويت لأفضل 10 مدن مرشحة في المملكة العربية السعودية",
+            "description": "يود مجلس إدارة مجموعة الأعمال والتمويل (BFG) التي تأسست عام 1985 ومجلة نادي الأعمال والتمويل التابع لها، والذي يقع مقره في مدينة دبي للإعلام منذ عام 2003، أن يتقدما بأطيب تحياته.   ",
+            "buttons": [
+                "حول تعليمات التصويت",
+                "حول التصويت فوائد",
+                "حول تعليمات التصويت"
+            ],
+            "image": "../assets/images/Group74.png"
+        },
+        {
+            "title": "جدول الأعمال 2: برنامج التصويت لأفضل 10 مدن مرشحة في المملكة العربية السعودية",
+            "description": "يود مجلس إدارة مجموعة الأعمال والتمويل (BFG) التي تأسست عام 1985 ومجلة نادي الأعمال والتمويل التابع لها، والذي يقع مقره في مدينة دبي للإعلام منذ عام 2003، أن يتقدما بأطيب تحياته.   ",
+            "buttons": [
+                "حول تعليمات التصويت",
+                "حول التصويت فوائد",
+                "حول تعليمات التصويت"
+            ],
+            "image": "../assets/images/Group74.png"
+        },
+        {
+            "title": "جدول الأعمال 2: برنامج التصويت لأفضل 10 مدن مرشحة في المملكة العربية السعودية",
+            "description": "يود مجلس إدارة مجموعة الأعمال والتمويل (BFG) التي تأسست عام 1985 ومجلة نادي الأعمال والتمويل التابع لها، والذي يقع مقره في مدينة دبي للإعلام منذ عام 2003، أن يتقدما بأطيب تحياته.   ",
+            "buttons": [
+                "حول تعليمات التصويت",
+                "حول التصويت فوائد",
+                "حول تعليمات التصويت"
+            ],
+            "image": "../assets/images/Group74.png"
+        }
+    ]
+    // const cardItems = await fetchData();
     const cardWrapper = document.querySelector('.OF-wrapper');
     const cardsContainer = document.querySelector('.OF-cards');
     const indexContainer = document.querySelector('.OF-index');
