@@ -24,7 +24,7 @@ body {
 .ma-all {
   width: 100%;
   background-color: #FEFEF7;
-  padding: 70px;
+  padding: 4.375rem;
   padding-bottom: 0;
 }
 
@@ -32,15 +32,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.ma-navPo {
-  padding-bottom: 51px;
+  padding-bottom: 3.188rem;
 }
 
 .ma-navPo ul {
   display: flex;
-  gap: 32px;
+  gap: 2rem;
 }
 
 .ma-navPo ul li {
@@ -50,10 +47,13 @@ body {
 .ma-navPo ul li a {
   text-decoration: none;
   color: rgba(82, 82, 94, 0.60);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 1.625rem;
+}
 
+.ma-navPo ul li a.underline {
+  text-decoration: underline;
 }
 
 .ma-navPt {
@@ -69,12 +69,12 @@ body {
 
 .indicator-dot.online {
   position: absolute;
-  width: 15px;
-  height: 15px;
+  width: 0.9375rem;
+  height: 0.9375rem;
   background-color: #70DF55;
   border-radius: 50%;
-  right: 65px;
-  top: 70px;
+  right: 4.0625rem;
+  top: 4.375rem;
 }
 
 .ma-hero {
@@ -86,15 +86,15 @@ body {
 
 .ma-heroPo {
   border-right: 4px solid #12372A;
-  border-radius: 3px;
-  padding-right: 70px;
+  border-radius: 0.1875rem;
+  padding-right: 4.375rem;
 }
 
 .ma-heroPo h1 {
-  font-size: 64px;
+  font-size: 4rem;
   font-weight: 700;
-  line-height: 86px;
-  letter-spacing: -1px;
+  line-height: 5.375rem;
+  letter-spacing: -0.0625rem;
   background: var(--test, linear-gradient(270deg, #12372A 8.43%, #436850 101.61%));
   background-clip: text;
   -webkit-background-clip: text;
@@ -105,58 +105,60 @@ body {
 .ma-heroPoL {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
   text-align: center;
 }
 
 .ma-heroPoL .ma-heroParO {
   color: #52525E;
-  /* font-family: "Bai Jamjuree"; */
-  letter-spacing: -1px;
+  font-family: "Bai Jamjuree";
+  letter-spacing: -0.0625rem;
 }
 
 .ma-heroPoL .ma-heroParT {
   color: #52525E;
-  /* font-family: "Bai Jamjuree"; */
-  font-size: 20px;
+  font-family: "Bai Jamjuree";
+  font-size: 1.25rem;
   font-weight: 700;
-  letter-spacing: -1px;
+  letter-spacing: -0.0625rem;
 }
 
 .ma-heroPT {
-  padding-left: 70px;
+  padding-left: 4.375rem;
 }
 
 .ma-heroPT .ma-heroPTpar {
-  width: 293px;
+  width: 25.3125rem;
   color: #52525E;
-  /* font-family: "Bai Jamjuree"; */
-  font-size: 16px;
+  font-family: "Bai Jamjuree";
+  font-size: 1.5rem;
   font-weight: 500;
-  line-height: 29px;
-  letter-spacing: -0.421px;
+  line-height: 1.8125rem;
+  letter-spacing: -0.0263125rem;
+  margin-bottom: 1.5rem;
 }
 
 .ma-heroPtD {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 .ma-heroPDo h1 {
   color: #12372A;
-  /* font-family: "Bai Jamjuree"; */
-  font-size: 20px;
-  letter-spacing: -1px;
+  font-family: "Bai Jamjuree";
+  font-size: 2rem;
+  letter-spacing: -0.0625rem;
+  font-weight: 500;
 }
 
 .ma-heroPDo p {
   color: #52525E;
-  /* font-family: "Bai Jamjuree"; */
-  font-size: 16px;
+  font-family: "Bai Jamjuree";
+  font-size: 1.5rem;
   font-weight: 500;
-  line-height: 29px;
-  letter-spacing: -0.421px;
+  line-height: 1.8125rem;
+  letter-spacing: -0.0263125rem;
 }
 
 .ma-heroImg {
@@ -164,8 +166,8 @@ body {
   align-items: center;
   justify-content: center;
   background: #12372A;
-  border-radius: 15px;
-  margin-top: 49px;
+  border-radius: 0.9375rem;
+  margin-top: 3.0625rem;
 }
 
 .ma-main {
@@ -175,58 +177,72 @@ body {
   background-color: #FEFEF7;
   width: 100%;
   height: 100%;
-  padding: 96px 70px;
+  padding: 96px 4.375rem;
+}
+
+.ma-main .left {
+  z-index: 1;
+}
+
+.ma-main .Of-child_2 {
+  position: absolute;
+  left: 0px;
+  margin: 0 auto;
+  z-index: 0;
+}
+
+.ma-main .ma-cardThree {
+  z-index: 1;
 }
 
 .ma-cardOne {
   background: white;
   border: 1px solid black;
-  padding: 17px 0 34px 29px;
-  border-radius: 15px;
+  padding: 1.0625rem 0 2.125rem 1.8125rem;
+  border-radius: 0.9375rem;
 }
 
 .ma-cardOne h1 {
-  /* font-family: "Bai Jamjuree"; */
-  margin-bottom: 29px;
+  font-family: "Bai Jamjuree";
+  margin-bottom: 1.8125rem;
 }
 
 .ma-cardOne p {
-  width: 550px;
-  /* font-family: "Bai Jamjuree"; */
+  width: 34.375rem;
+  font-family: "Bai Jamjuree";
 }
 
 .ma-mainPt {
   display: flex;
   align-items: center;
-  gap: 30px;
-  margin-top: 33px;
+  gap: 1.875rem;
+  margin-top: 2.0625rem;
 }
 
 .ma-cardTwo {
   background: white;
-  border: 1px solid black;
-  padding: 30px 0 94px 30px;
-  border-radius: 15px;
+  border: 0.0625rem solid black;
+  padding: 1.875rem 0 5.875rem 1.875rem;
+  border-radius: 0.9375rem;
 }
 
 .ma-cardTwo h2 {
-  width: 300px;
-  /* font-family: "Bai Jamjuree"; */
-  margin-bottom: 51px;
+  width: 18.75rem;
+  font-family: "Bai Jamjuree";
+  margin-bottom: 3.1875rem;
 }
 
 .ma-cardTwo p {
-  width: 300px;
-  /* font-family: "Bai Jamjuree"; */
+  width: 18.75rem;
+  font-family: "Bai Jamjuree";
 }
 
 .ma-cardThree {
   background: white;
-  border: 1px solid black;
-  padding: 77px 98px;
-  border-radius: 15px;
+  border: 0.0625rem solid black;
+  padding: 4.8125rem 6.125rem;
+  border-radius: 0.9375rem;
 }
-
 /* ////////////////////////////////////////////////////////// */
 
 /* Slider Styles */

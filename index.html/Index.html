@@ -32,13 +32,13 @@
         <nav>
             <div class="ma-navPo">
                 <ul>
-                    <li><a href>Home</a></li>
-                    <li><a href>About project</a></li>
-                    <li><a href>Top 10 city voting</a></li>
-                    <li><a href>Project agenda</a></li>
-                    <li><a href>Partners & supporters</a></li>
-                    <li><a href>Services</a></li>
-                    <li><a href>media</a></li>
+                    <li><a href="#" onclick="addUnderline(event)">Home</a></li>
+                    <li><a href="#" onclick="addUnderline(event)">About project</a></li>
+                    <li><a href="#" onclick="addUnderline(event)">Top 10 city voting</a></li>
+                    <li><a href="#" onclick="addUnderline(event)">Project agenda</a></li>
+                    <li><a href="#" onclick="addUnderline(event)">Partners & supporters</a></li>
+                    <li><a href="#" onclick="addUnderline(event)">Services</a></li>
+                    <li><a href="#" onclick="addUnderline(event)">media</a></li>
                 </ul>
             </div>
             <div class="ma-navPt">
@@ -86,7 +86,7 @@
         </div>
     </div>
     <div class="ma-main">
-        <div>
+        <div class="left">
             <div class="ma-cardOne">
                 <h1>About the Project</h1>
                 <p>The Board of Directors of the Business and Finance Group (BFG) established in 1985 to develop
@@ -108,6 +108,8 @@
                         for a whole year under the name: the biggest 10 Arabian gulf-DAFOS 2023/2024</p>
                 </div>
             </div>
+        </div>
+        <div class="Of-child_2">
         </div>
         <div class="ma-cardThree"><img src="./../assets/images/Extra Big LOGO 72H (2).png" alt=""></div>
     </div>
@@ -536,14 +538,21 @@
                 indicatorDot.classList.remove('online');
             }
         }
-
-        // تحقق من حالة الاتصال عند تحميل الصفحة
         window.addEventListener('load', checkOnlineStatus);
-
-        // تحقق من حالة الاتصال عند تغيير الحالة
         window.addEventListener('online', checkOnlineStatus);
         window.addEventListener('offline', checkOnlineStatus);
-
+        window.addEventListener('DOMContentLoaded', function () {
+            var homeLink = document.querySelector('.ma-navPo ul li:first-of-type a');
+            homeLink.classList.add('underline');
+        });
+        function addUnderline(event) {
+            var link = event.target;
+            var links = document.querySelectorAll('.ma-navPo ul li a');
+            links.forEach(function (link) {
+                link.classList.remove('underline');
+            });
+            link.classList.add('underline');
+        }
     </script>
 </body>
 
