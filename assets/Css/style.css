@@ -243,6 +243,7 @@ body {
   padding: 4.8125rem 6.125rem;
   border-radius: 0.9375rem;
 }
+
 /* ////////////////////////////////////////////////////////// */
 
 /* Slider Styles */
@@ -342,7 +343,7 @@ body {
   padding-bottom: 2.875rem;
 } */
 
-.center .OF-flex  p{
+.center .OF-flex p {
   text-align: center;
   font-family: var(--font-family_2);
   font-style: normal;
@@ -454,16 +455,20 @@ body {
 .OF-first-column_hover_3,
 .OF-first-column_hover_2,
 .OF-first-column_hover_1 {
-  transition: transform 0.5s ease; /* Smooth transition */
+  transition: transform 0.5s ease;
+  /* Smooth transition */
   position: relative;
- 
+
 }
+
 .OF-first-column_hover_4:hover,
 .OF-first-column_hover_3:hover,
 .OF-first-column_hover_2:hover,
 .OF-first-column_hover_1:hover {
-  transform: translateY(-15px); /* Move the card up by 15px on hover */
+  transform: translateY(-15px);
+  /* Move the card up by 15px on hover */
 }
+
 /* Agenda Styles */
 .OF-Agenda-Head-Title {
   font-family: var(--font-family_3);
@@ -479,7 +484,7 @@ body {
 
 .OF-Parent {
   max-width: max-content !important;
-  margin: 0 auto 100px auto!important;
+  margin: 0 auto 100px auto !important;
 
 }
 
@@ -498,11 +503,16 @@ body {
   background-size: cover;
   border-radius: 24px;
 }
-
-.OF-card {
-  display: none;
+/************************************************************/
+.OF-cards {
+  height: 432px;
+  overflow: hidden;
 }
 
+.OF-card {
+  display: flex;
+}
+/*************************************************/
 
 .OF-card-image {
   min-width: 367px;
@@ -511,11 +521,11 @@ body {
 .OF-card-image img {
   width: 100%;
 }
-
-.OF-card.active {
+/**********************************************/
+/* .OF-card.active {
   display: flex;
-}
-
+} */
+/*********************************************/
 .OF-card-content {
   /* max-width: 576.07px; */
   margin-top: 92px;
@@ -523,26 +533,24 @@ body {
   padding-right: 20px;
 }
 
-/* ******************************************************** */
 .card-title-h1 {
   font-family: var(--font-family_1);
   font-style: normal;
   font-weight: 700;
-  font-size: 32px; 
-   line-height: 39px;
+  font-size: 32px;
+  line-height: 39px;
   color: #12372A;
 
 }
 
- .card-title-span {
+.card-title-span {
   font-family: var(--font-family_1);
   font-style: normal;
   font-weight: 700;
-  font-size: 24px; 
-   line-height: 39px;
+  font-size: 24px;
+  line-height: 39px;
   color: #12372A;
 }
-
 .OF-card-content .OF-card-title p {
   font-family: var(--font-family_1);
   margin-top: 25px;
@@ -941,3 +949,9 @@ footer {
 footer .ma-footerImg {
   width: 100%;
 }
+
+
+
+
+
+

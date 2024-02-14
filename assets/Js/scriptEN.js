@@ -31,27 +31,6 @@ $('.center').slick({
         }
     ]
 });
-
-//fetch Data For Agenda View
-// async function fetchData() {
-//     try {
-//         // URL of the JSON endpoint 
-//         const url = '../../Index.html/cardsEn.json';
-//         // Fetch the JSON data 
-//         const response = await fetch(url);
-//         // Check if the response is successful 
-//         if (!response.ok) {
-//             throw new Error('Network response was not ok');
-//         }
-//         // Parse the JSON response 
-//         const data = await response.json();
-//         return data;
-//     } catch (error) {
-//         // Handle any errors that occurred during the fetch 
-//         console.error('Fetch error:', error);
-//     }
-// }
-
 document.addEventListener('DOMContentLoaded', async function () {
     const cardItems = [
         {
@@ -78,7 +57,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         },
         {
             "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
-            "title_2": " AGENDA 3", 
+            "title_2": " AGENDA 3",
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -89,7 +68,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         },
         {
             "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
-            "title_2": " AGENDA 4", 
+            "title_2": " AGENDA 4",
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -100,7 +79,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         },
         {
             "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
-            "title_2": " AGENDA 5", 
+            "title_2": " AGENDA 5",
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -111,7 +90,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         },
         {
             "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
-            "title_2": " AGENDA 6", 
+            "title_2": " AGENDA 6",
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -122,7 +101,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         },
         {
             "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
-            "title_2": " AGENDA 7", 
+            "title_2": " AGENDA 7",
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -133,7 +112,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         },
         {
             "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
-            "title_2": " AGENDA 8", 
+            "title_2": " AGENDA 8",
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -144,7 +123,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         },
         {
             "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
-            "title_2": " AGENDA 9", 
+            "title_2": " AGENDA 9",
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -155,7 +134,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         },
         {
             "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
-            "title_2": " AGENDA 10", 
+            "title_2": " AGENDA 10",
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
@@ -165,7 +144,7 @@ document.addEventListener('DOMContentLoaded', async function () {
             "image": "../assets/images/Group74.png"
         }
     ]
-    // const cardItems = await fetchData();
+
     const cardWrapper = document.querySelector('.OF-wrapper');
     const cardsContainer = document.querySelector('.OF-cards');
     const indexContainer = document.querySelector('.OF-index');
@@ -174,7 +153,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     cardsContainer.innerHTML = '';
     indexContainer.innerHTML = '';
 
-    // Generate cards dynamically from reponse data (fetch)
+    // Generate cards dynamically from the array
     cardItems.forEach((content, index) => {
         cardsContainer.innerHTML += `<div class="OF-card">
         <div class="OF-card-image">
@@ -183,7 +162,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         <div class="OF-card-content">
             <div class="OF-card-title">
                 <h1 class="card-title-h1">
-                 ${content.title_2}
+                ${content.title_2}
                     <span class="card-title-span">
                     ${content.title}
                     </span> 
@@ -200,6 +179,7 @@ document.addEventListener('DOMContentLoaded', async function () {
             </div>
             </div>
         </div>`
+
         // Generate index dynamically from the array index
         const indexItem = document.createElement('div');
         indexItem.classList.add('current-index');
@@ -208,22 +188,30 @@ document.addEventListener('DOMContentLoaded', async function () {
         indexContainer.appendChild(indexItem);
         indexItem.addEventListener('click', () => setActiveCard(index));
     });
-
     let currentCardIndex = 0;
+    let currentIndex = 0;
     const cards = document.querySelectorAll('.OF-card');
     const indexItems = document.querySelectorAll('.current-index');
-
     setActiveCard(currentCardIndex);
-
     function setActiveCard(index) {
         cards.forEach((card, i) => {
-            if (i === index) {
-                card.classList.add('active');
-            } else {
-                card.classList.remove('active');
+            if (index < currentIndex) {
+                if (cards[index+1]) {
+                    cards[index+1].style.transition = 'opacity 0.5s ease-in-out, transform 0.5s ease-in-out';
+                    cards[index+1].style.transform = `translateY(${-100 * index + 1}%)`;
+                    cards[index+1].style.opacity = '0';
+                }
+                card.style.transition = 'opacity 0.5s ease-in-out, transform 0.5s ease-in-out';
+                card.style.transform = `translateY(${-100 * index}%)`;
+                card.style.opacity = '1';
+    
+            } else if (i <= index) {
+                card.style.transition = 'opacity 0.5s ease-in-out, transform 0.5s ease-in-out';
+                card.style.transform = `translateY(${-100 * index}%)`;
+                card.style.opacity = '1';
             }
         });
-
+    
         indexItems.forEach((item, i) => {
             if (i === index) {
                 item.classList.add('active');
@@ -231,13 +219,14 @@ document.addEventListener('DOMContentLoaded', async function () {
                 item.classList.remove('active');
             }
         });
-
+    
         // Update the index position to keep the active number in the middle
         const activeIndexItem = document.querySelector('.current-index.active');
         const indexContainerHeight = indexContainer.clientHeight;
         const activeIndexItemHeight = activeIndexItem.clientHeight;
         const offset = activeIndexItem.offsetTop - (indexContainerHeight / 2) + (activeIndexItemHeight / 2);
         indexContainer.scrollTop = offset;
+        currentIndex = index;
     }
 
     function scrollHandler(event) {
@@ -252,3 +241,5 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
     cardWrapper.addEventListener('wheel', scrollHandler);
 });
+
+
