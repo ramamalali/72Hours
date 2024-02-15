@@ -505,9 +505,10 @@ body {
 }
 /************************************************************/
 .OF-cards {
-  height: 432px;
+  height: 438px;
   overflow: hidden;
 }
+
 
 .OF-card {
   display: flex;
@@ -578,8 +579,10 @@ body {
   line-height: 17px;
   color: #FBFADA;
   width: 150px;
-  height: 65.42px;
+  min-height: 65.42px;
+  max-height: max-content;
   cursor: pointer;
+  padding: 5px 0 !important;
 }
 
 
@@ -643,6 +646,7 @@ body {
 
   .OF-card-image img {
     padding: 33px 0;
+    height: 433px;
   }
 }
 
@@ -740,12 +744,12 @@ body {
   margin-bottom: 2.5rem;
 }
 
-button {
+.rm_voting_bottns button {
   width: 9.3325rem;
   height: 4.08875rem;
   padding: 0.6875rem 1.375rem;
   border: none;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: #000000;
   background-color: #a7a7a7;
   border-radius: 0.5rem;

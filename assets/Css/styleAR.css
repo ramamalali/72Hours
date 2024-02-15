@@ -505,10 +505,16 @@ body {
   border-radius: 24px;
 }
 
-.OF-card {
-  display: none;
+/************************************************************/
+.OF-cards {
+  height: 438px;
+  overflow: hidden;
 }
 
+.OF-card {
+  display: flex;
+}
+/*************************************************/
 
 .OF-card-image {
   min-width: 367px;
@@ -517,11 +523,11 @@ body {
 .OF-card-image img {
   width: 100%;
 }
-
-.OF-card.active {
+/**********************************************/
+/* .OF-card.active {
   display: flex;
-}
-
+} */
+/*********************************************/
 .OF-card-content {
   margin-top: 92px;
   padding-right: 45.64px;
@@ -529,25 +535,24 @@ body {
 }
 
 /* ******************************************************** */
-.OF-card-content .OF-card-title .card-title-span {
+.card-title-h1 {
   font-family: var(--font-family_1);
   font-style: normal;
   font-weight: 700;
-  /* font-size: 32px; */
-  /* line-height: 39px; */
+  font-size: 32px;
+  line-height: 39px;
   color: #12372A;
 
 }
 
-.OF-card-content .card-title {
+.card-title-span {
   font-family: var(--font-family_1);
   font-style: normal;
   font-weight: 700;
-  /* font-size: 24px; */
-  /* line-height: 39px; */
+  font-size: 24px;
+  line-height: 39px;
   color: #12372A;
 }
-
 .OF-card-content .OF-card-title p {
   font-family: var(--font-family_1);
   margin-top: 25px;
@@ -575,8 +580,10 @@ body {
   line-height: 17px;
   color: #FBFADA;
   width: 150px;
-  height: 65.42px;
+  min-height: 65.42px;
+  max-height: max-content;
   cursor: pointer;
+  padding: 5px 0 !important;
 }
 
 
@@ -641,6 +648,7 @@ body {
 
   .OF-card-image img {
     padding: 33px 0;
+    height: 433px;
   }
 }
 
@@ -739,7 +747,7 @@ body {
   margin-bottom: 2.5rem;
 }
 
-button {
+.rm_voting_bottns button {
   width: 9.3325rem;
   height: 4.08875rem;
   padding: 0.6875rem 1.375rem;
