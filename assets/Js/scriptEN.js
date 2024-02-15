@@ -39,8 +39,8 @@ document.addEventListener('DOMContentLoaded', async function () {
             "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
             "buttons": [
                 "About voting instruction",
-                "About voting instruction",
-                "About voting instruction"
+                "About Voting <br> benefits",
+                "About Top 10 saudi emirati  candidate <br> city"
             ],
             "image": "../assets/images/Group74.png"
         },
@@ -56,93 +56,84 @@ document.addEventListener('DOMContentLoaded', async function () {
             "image": "../assets/images/Group74.png"
         },
         {
-            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title": " : Top 100 Saudi Emirati Companies ",
             "title_2": " AGENDA 3",
-            "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
+            "description": "",
             "buttons": [
-                "About voting instruction",
-                "About voting instruction",
-                "About voting instruction"
+                "About Top 100 Companies",
+                "Monthly Saudi <br> Emirati Top 10 Companies",
+                "Saudi Emirati <br> Top 100 Companies List",
+                "Monthly Information Form",
+                "Saudi Emirati Top <br> 100 Companies Exhibition",
+                "Top 100 Companies Encyclopedia"
             ],
-            "image": "../assets/images/Group74.png"
+            "image": "../assets/images/agenda3.png"
         },
         {
-            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title": " :Launch of Best 100 Saudi Emirati Official Organisations",
             "title_2": " AGENDA 4",
-            "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
+            "description": "",
             "buttons": [
-                "About voting instruction",
-                "About voting instruction",
-                "About voting instruction"
+                "About Best 100 Gov Organisation",
+                "Monthly Saudi <br> Emirati Best 10 Gov Organisation",
+                "Saudi Emirati <br> Best 100 Gov Organisation List",
+                "Monthly Information Form",
+                "Saudi Emirati Best <br> 100 Gov Organisation Exhibition",
+                "Best 100 Gov Organisation Encyclopaedia"
             ],
-            "image": "../assets/images/Group74.png"
+            "image": "../assets/images/agenda4.png"
         },
         {
-            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title": " : Launch Of Saudi Emirati Public-Private Business Council Club",
             "title_2": " AGENDA 5",
-            "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
+            "description": "",
             "buttons": [
-                "About voting instruction",
-                "About voting instruction",
-                "About voting instruction"
+                "About Public Private Business Council <br> Club",
+                "Saudi Emirati Public  Private  Business  Council  Club  Candidate Cities",
             ],
-            "image": "../assets/images/Group74.png"
+            "image": "../assets/images/agenda5.png",
         },
         {
-            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title": " :LAUNCH OF TRAVELER GUIDE BOOKLET AND IT'S PROGRAM SERVICES",
             "title_2": " AGENDA 6",
-            "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
+            "description": "",
             "buttons": [
-                "About voting instruction",
-                "About voting instruction",
-                "About voting instruction"
+                "About The Traveler Guide",
+                "Traveler Guide Booklet",
+                "About Traveler Guide Services",
+                "Traveler Guide Online Shopping",
+                "About Traveler Guide Services",
+                "Advertising Rates",
+                "Traveler Guide Information Form",
+                "Roadshow Agenda",
             ],
-            "image": "../assets/images/Group74.png"
+            "image": "../assets/images/agenda6.png",
         },
         {
-            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title": " :LAUNCH OF 72 HOURS ROAD SHOW PROGRAM 2022 - 2023",
             "title_2": " AGENDA 7",
-            "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
+            "description": "",
             "buttons": [
-                "About voting instruction",
-                "About voting instruction",
-                "About voting instruction"
+                "About Multi Roadshow Program",
+                "Top 10 Candidate Cities Roadshow Agenda",
+                "Roadshow Program Services",
+                "Roadshow Program Tickets",
+                "Segment Sponsor Contracts",
+                "Program Registration Form",
             ],
-            "image": "../assets/images/Group74.png"
+            "image": "../assets/images/agenda7.png",
         },
         {
-            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
+            "title": " :Distribution of Special Edition of 3D Magnetic Pins and Smart Desk organiser On Saudi National Day 91 and Emirati National Day 50",
             "title_2": " AGENDA 8",
-            "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
+            "description": "",
             "buttons": [
-                "About voting instruction",
-                "About voting instruction",
-                "About voting instruction"
+                "About Project gift items",
+                "Gift items and Rates",
             ],
-            "image": "../assets/images/Group74.png"
+            "image": "../assets/images/agenda8.jpg"
         },
-        {
-            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
-            "title_2": " AGENDA 9",
-            "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
-            "buttons": [
-                "About voting instruction",
-                "About voting instruction",
-                "About voting instruction"
-            ],
-            "image": "../assets/images/Group74.png"
-        },
-        {
-            "title": " : SAUDI EMIRATI TOP 10 CANDIDATE CITIES VOTING PROGRAM ",
-            "title_2": " AGENDA 10",
-            "description": "The Board of Directors of the Business and Finance Group (BFG) established in 1985 and its Business and Finance Club Magazine, based in Dubai Media City since 2003 would like to present its best greetings.",
-            "buttons": [
-                "About voting instruction",
-                "About voting instruction",
-                "About voting instruction"
-            ],
-            "image": "../assets/images/Group74.png"
-        }
+        
     ]
 
     const cardWrapper = document.querySelector('.OF-wrapper');
@@ -157,7 +148,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     cardItems.forEach((content, index) => {
         cardsContainer.innerHTML += `<div class="OF-card">
         <div class="OF-card-image">
-            <img dir="rtl" src=${content.image} alt="">
+            <img  dir="rtl" src=${content.image} alt="">
         </div>
         <div class="OF-card-content">
             <div class="OF-card-title">
