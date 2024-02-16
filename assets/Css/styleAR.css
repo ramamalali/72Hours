@@ -46,6 +46,11 @@ body {
   list-style: none;
 }
 
+.ma-navPo ul li a.underline {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: #000000;
+}
 .ma-navPo ul li a {
   text-decoration: none;
   color: rgba(82, 82, 94, 0.60);
@@ -72,8 +77,9 @@ body {
   height: 15px;
   background-color: #70DF55;
   border-radius: 50%;
-  right: 65px;
+  /* right: 68px; */
   top: 70px;
+  left: 66px;
 }
 
 .ma-hero {
@@ -130,7 +136,7 @@ body {
   width: 293px;
   color: #52525E;
   font-family: "Bai Jamjuree";
-  font-size: 16px;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 29px;
   letter-spacing: -0.421px;
@@ -146,14 +152,14 @@ body {
 .ma-heroPDo h1 {
   color: #12372A;
   font-family: "Bai Jamjuree";
-  font-size: 20px;
+  font-size: 1.5rem;
   letter-spacing: -1px;
 }
 
 .ma-heroPDo p {
   color: #52525E;
   font-family: "Bai Jamjuree";
-  font-size: 16px;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 29px;
   letter-spacing: -0.421px;
@@ -170,15 +176,17 @@ body {
 }
 
 .ma-main {
+  margin-top: 60px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #FEFEF7;
   width: 100%;
   height: 100%;
-  padding: 96px 70px;
-  position: relative;
-  gap: 30px;
+  /* padding: 96px 4.375rem; */
+  /* gap: 10px; */
+  /* margin: 43px 43px; */
+  margin-bottom: 60px;
 }
 
 .ma-main .left {
@@ -187,8 +195,8 @@ body {
 
 .ma-main .Of-child_2 {
   position: absolute;
-  top: 0;
-  right: -70px;
+  left: 17px;
+  margin: 0 auto;
   z-index: 0;
 }
 
@@ -912,4 +920,50 @@ body {
 .rm_roadshow_sec2_photo {
   width: 30.25rem;
   height: 18.375rem;
+}
+
+
+/***************************************************************************/
+footer {
+  background: #12372A;
+}
+
+.ma-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px;
+}
+
+.ma-footer h1 {
+  color: white;
+  margin-bottom: 24px;
+}
+
+.ma-footer p {
+  color: white;
+  margin-bottom: 16px;
+  font-family: "Bai Jamjuree";
+}
+
+.ma-footerPthree {
+  margin-top: 24px;
+}
+
+.ma-footerIcon {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: white;
+  font-size: 20px;
+}
+
+.ma-footerPt {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+footer .ma-footerImg {
+  width: 100%;
 }

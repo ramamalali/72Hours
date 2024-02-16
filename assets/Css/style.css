@@ -54,6 +54,8 @@ body {
 
 .ma-navPo ul li a.underline {
   text-decoration: underline;
+  font-weight: bolder;
+  color: #000000;
 }
 
 .ma-navPt {
@@ -171,14 +173,19 @@ body {
 }
 
 .ma-main {
+  margin-top: 60px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #FEFEF7;
   width: 100%;
   height: 100%;
-  padding: 96px 4.375rem;
+  /* padding: 96px 4.375rem; */
+  /* gap: 10px; */
+  /* margin: 43px 43px; */
+  margin-bottom: 60px;
 }
+
 
 .ma-main .left {
   z-index: 1;
